@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 	let data = [
 		{
@@ -180,6 +180,7 @@
                 '3 SETS',
 '20 Plank Forward & Back',
 'https://www.youtube.com/watch?v=EhwxAoq3pDo'
+              ]
             }
 					]
 				},
