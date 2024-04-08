@@ -703,15 +703,15 @@
         },
         {
           "name": "B) Custom Metcon",
-          "details": "FOR TIME 10 -8-6-4-2 SQUAT CLEAN 10 -8-6-4-2 STRICT PULL UPS 10 -8-6-4-2 STRICT HSPU 200 MTS RUN EVERY SET TIME CAP 15 BARBELL 135 LB"
+          "details": ["FOR TIME 10 -8-6-4-2"," SQUAT CLEAN ","","STRICT PULL UPS "," STRICT HSPU ","200 MTS RUN EVERY SET ","TIME CAP 15"," BARBELL 135 LB"]
         },
         {
           "name": "C) Custom Metcon",
-          "details": "3 SET 20 V SIT UP 20/20 SIDE PLANK HIP LIFT"
+          "details": ["3 SET ","20 V SIT UP"," 20/20 SIDE PLANK HIP LIFT"]
         },
         {
           "name": "D) Custom Metcon",
-          "details": "40'' ON/20'' OFF X 10 @MODERATE PACE 1) MAX REPS BOX JUMP OVER 2) MAX REPS GHD SIT UP"
+          "details": ["40'' ON/20'' OFF X 10 @MODERATE "," 1) MAX REPS BOX JUMP OVER ","2) MAX REPS GHD SIT UP"]
         }
       ]
     }
@@ -722,7 +722,7 @@
 </script>
 
 <div>
-	<h2 class="h1 font-bold pb-4">Workout</h2>
+	<h2 class="h1 font-bold pb-4">Crossfit Program 1</h2>
   <hr class="mb-8">
   
 	<Accordion autocollapse>
