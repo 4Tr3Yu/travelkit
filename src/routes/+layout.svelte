@@ -9,7 +9,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<strong class="text-xl uppercase">Atre's Utils</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
@@ -18,7 +18,8 @@
 					target="_blank"
 					rel="noreferrer"
 				>
-link1				</a>
+					link1
+				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
 					href="https://twitter.com/SkeletonUI"

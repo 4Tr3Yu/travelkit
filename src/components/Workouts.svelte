@@ -592,15 +592,140 @@
 					]
 				}
 			]
-		}
+		},
+		{
+  "name": "Week 6",
+  "days": [
+    {
+      "name": "Monday",
+      "exercises": [
+        {
+          "name": "A) 3 SET",
+          "details": [
+            "30'' SINGLE LEG WALL SIT",
+            "30'' SINGLE ARM RING HOLD",
+            "20'' - 30'' SINGLE ARM HIGH PLANK",
+            "5/5 SINGLE LEG JUMP BOX"
+          ]
+        },
+        {
+          "name": "B) Custom Metcon",
+          "details": "FOR TIME 75 HANG POWER SNATCH 75 lb EVERY TIME YOU BREAK 50 D.U. TIME CAP 10"
+        },
+        {
+          "name": "C) FOR TIME",
+          "details": "10-9-8-7-6-5-4-3-2-1 BARBELL CURL BARBELL Z PRESS (https://www.youtube.com/watch?v=wF0Och9eq28)"
+        },
+        {
+          "name": "D) EMOM 10",
+          "details": [
+            "1) 12 CAL BIKE",
+            "2) 30'' PLANK"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tuesday",
+      "exercises": [
+        {
+          "name": "A) Weightlifting (Back Squat)",
+          "details": "EVERY 02:30 X 4 3 TEMPO FRONT SQUAT( 4 SEC DOWN, 2 HOLD AT BOTTOM AND GO UP FAST) 70% FRONT SQUAT"
+        },
+        {
+          "name": "B) Custom Metcon",
+          "details": "FOR TIME 80 TOES TO BAR EVERY TIME YOU BREAK 5 BURPEES TIME CAP 12"
+        },
+        {
+          "name": "C) 4 ROUNDS FOR QUALITY",
+          "details": "30 CAL ROW 60 D.U."
+        }
+      ]
+    },
+    {
+      "name": "Wednesday",
+      "exercises": [
+        {
+          "name": "A) 3 ROUNDS",
+          "details": [
+            "10 DB BENCH PRESS",
+            "10 DB BENT OVER ROW"
+          ]
+        },
+        {
+          "name": "3 ROUNDS",
+          "details": [
+            "10/10 SINGLE LEG HIP THRUST",
+            "5 NORDIC CURL"
+          ]
+        },
+        {
+          "name": "B) Custom Metcon",
+          "details": "5 ROUNDS 5 POWER CLEAN 10 BUREES OVER BAR 15 DEADLIFT 155 LB TIME CAP 15"
+        },
+        {
+          "name": "C) MAX REPS",
+          "details": "30'' ON/15'' OFF X 15 1) BARBELL UPRIGHT ROW 2) BARBELL OVER HEAD TRICEP EXTENSION 3) OVER HEAD SQUAT(NARROW GRIP) 4) CAL BIKE"
+        },
+        {
+          "name": "D) 3 SET",
+          "details": [
+            "20 BANDED HARMSTRING CURL",
+            "20 HOLLOW ROCK"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thursday",
+      "exercises": [
+        {
+          "name": "A) 40'' ON/20'' OFF X 20",
+          "details": [
+            "SINGLE UNDERS",
+            "SWING RUSSIAN",
+            "STEP UP",
+            "INCHWORM"
+          ]
+        },
+        {
+          "name": "B) FOR TIME",
+          "details": "7 ROUNDS 400 MTS RUN REST 90'"
+        }
+      ]
+    },
+    {
+      "name": "Friday",
+      "exercises": [
+        {
+          "name": "A) Weightlifting (C&J)",
+          "details": "EVERY 01:30 X 10 POWER CLEAN + PUSH JERK+ SPLIT JERK START WITH YOUR 60% AND INCREASE TO 75% 1RM C&J"
+        },
+        {
+          "name": "B) Custom Metcon",
+          "details": "FOR TIME 10 -8-6-4-2 SQUAT CLEAN 10 -8-6-4-2 STRICT PULL UPS 10 -8-6-4-2 STRICT HSPU 200 MTS RUN EVERY SET TIME CAP 15 BARBELL 135 LB"
+        },
+        {
+          "name": "C) Custom Metcon",
+          "details": "3 SET 20 V SIT UP 20/20 SIDE PLANK HIP LIFT"
+        },
+        {
+          "name": "D) Custom Metcon",
+          "details": "40'' ON/20'' OFF X 10 @MODERATE PACE 1) MAX REPS BOX JUMP OVER 2) MAX REPS GHD SIT UP"
+        }
+      ]
+    }
+  ]
+}
+
 	];
 </script>
 
 <div>
 	<h2 class="h1 font-bold pb-4">Workout</h2>
-  <hr>
-
-	<Accordion>
+  <hr class="mb-8">
+  
+	<Accordion autocollapse>
 		{#each data as week}
 			<AccordionItem>
 				<svelte:fragment slot="lead">
@@ -610,7 +735,7 @@
 					<h2 class="h2 font-bold">{week.name.split(' ')[1]}</h2>
 				</svelte:fragment>
 				<svelte:fragment slot="content">
-					<Accordion>
+					<Accordion autocollapse>
 						{#each week.days as day}
 							<AccordionItem>
 								<svelte:fragment slot="lead">
@@ -653,3 +778,8 @@
 		{/each}
 	</Accordion>
 </div>
+<style lang="postcss">
+.accordion-item {
+  border-bottom: 1px solid white;
+}
+</style>
