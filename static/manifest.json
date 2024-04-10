@@ -4,8 +4,9 @@
     "description": "Fck Gravity is a simple app to create and view workouts.",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "background_color": "#660014",
+    "theme_color": "#660014",
+    "color": "#000000",
     "icons": [
         {
             "src": "./icon-196x196.png",
