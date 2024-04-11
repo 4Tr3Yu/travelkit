@@ -82,7 +82,7 @@
 									<p>{day}</p>
 								{/each}
 								
-								<button type="button" class="btn variant-ghost w-full" on:click={addDay(index)}>
+								<button type="button" class="btn variant-ghost w-full" on:click={() => addDay(index)}>
 									<span>Add Days ➕</span>
 								</button>
 								<hr class="w-full mt-4" />

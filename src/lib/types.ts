@@ -27,3 +27,8 @@ export type Workouts = {
     name: string;
     details: Array<string>;
 }
+
+export interface HelperText {
+    error: boolean | null	;
+    text: string | null;
+  }
