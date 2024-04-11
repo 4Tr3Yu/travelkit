@@ -9,17 +9,17 @@
     "color": "#000000",
     "icons": [
         {
-            "src": "./icon-144x144.png",
+            "src": "./icon-144.png",
             "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "./icon-196x196.png",
+            "src": "./icon-196.png",
             "sizes": "196x196",
             "type": "image/png"
         },
         {
-            "src": "./icon-512x512.png",
+            "src": "./icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
