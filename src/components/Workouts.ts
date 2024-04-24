@@ -855,5 +855,186 @@ export const data = [
                 ]
             }
         ]
-    }
+    },
+    {
+        "name": "Week 8",
+        "days": [
+          {
+            "name": "Monday",
+            "exercises": [
+              {
+                "name": "A) Weightlifting (Snatch)",
+                "details": "EVERY 01:15 X 8 SQUAT SNATCH (2 SEC PAUSE AT KNEE) 80%SNATCH"
+              },
+              {
+                "name": "B) Weightlifting (Front Squat)",
+                "details": "8 REPS 65%- 70% 6 REPS 75% 2 SETS OF 4 REPS 80% - 85%"
+              },
+              {
+                "name": "C) 3 SETS FOR QUALITY",
+                "details": [
+                  "30'' SCAPULLAR PULL UP TOP HOLD",
+                  "20'' PARALLETTE L SIT HOLD"
+                ]
+              },
+              {
+                "name": "D) EMOM 10(40'' ON/ 20'' OFF)",
+                "details": [
+                  "1) SINGLE LEG V SIT UP (ALTERNING LEG)",
+                  "2) BURPEES PULL UPS",
+                  "3) D.U."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tuesday",
+            "exercises": [
+              {
+                "name": "A) D.T.",
+                "details": "5 ROUNDS 12 DEADLIFT 9 HANG POWER CLEANS 6 PUSH JERK TIME CAP 15 BARBELL: 135 LB"
+              },
+              {
+                "name": "B) 5 ROUNDS",
+                "details": [
+                  "6 DB BENCH PRESS",
+                  "8 DB BENT OVER ROW"
+                ]
+              },
+              {
+                "name": "5 ROUNDS",
+                "details": [
+                  "10/10 SINGLE LEG HIP THRUST",
+                  "5 NORDIC CURL"
+                ]
+              },
+              {
+                "name": "C) 3 ROUNDS",
+                "details": [
+                  "30'' LATERAL PLANK EACH SIDE",
+                  "30'' HOLLOW HOLD",
+                  "400 MTS RUN @LOW PACE"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Wednesday",
+            "exercises": [
+              {
+                "name": "A) EMOM 42",
+                "details": [
+                  "1) 12 CAL ROW",
+                  "2) 100 MTS SKI",
+                  "3) 12 CAL BIKE",
+                  "4) 150 MTS RUN",
+                  "5) 5 PULL UPS + 10 PUSH UP +15 AIR SQUAT",
+                  "6) REST"
+                ]
+              },
+              {
+                "name": "B) Custom Metcon",
+                "details": [
+                  "20 BANDED PULL APART",
+                  "30 MTS DBS FARMER CARRY 2 X 25 KG"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Thursday",
+            "exercises": [
+              {
+                "name": "TAKE THE DAY OFF",
+                "details": "STRETCH WELL AND ENJOY THE DAY"
+              }
+            ]
+          },
+          {
+            "name": "Friday",
+            "exercises": [
+              {
+                "name": "A) BUILD UP 4 STRICT PRESS",
+                "details": "THEN 2 SETS OF 6 REPS WITH THE 85% - 90% OF 4 RM"
+              },
+              {
+                "name": "B) Weightlifting (Snatch Balance)",
+                "details": "EVERY 02:00 X 7 2 STRICT PRESS SNATCH GRIP 1 PUSH PRESS SNATCH GRIP 1 POWER SNATCH BALANCE 1 SNATCH BALANCE @MODERATE WEIGHT, INCREASE IF YOU FEEL GOOD"
+              },
+              {
+                "name": "C) 4 SETS FOR QUALITY",
+                "details": [
+                  "6 BENCH PRESS @70% of 1RM",
+                  "2 ROPE CLIMB"
+                ]
+              },
+              {
+                "name": "D) 4 SETS FOR QUALITY",
+                "details": [
+                  "10 BARBELL HIP THRUST",
+                  "20 GHD SIT UP"
+                ]
+              },
+              {
+                "name": "E) 4 sets",
+                "details": [
+                  "10 CHIN UPS",
+                  "4/4 SINGLE LEG BOX JUMP"
+                ]
+              },
+              {
+                "name": "F) 4 SETS",
+                "details": [
+                  "10 BARBELL OVER HEAD EXTENSION",
+                  "10 BARBELL UPRIGHT"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+      
 ];
+export const fligths = [
+    {
+        airline: 'Iberia',
+        origin: 'BER',
+        destiny: 'SCL',
+        price: [
+            {
+                currency: 'EUR',
+                amount: 1504
+            }
+        ]
+    }  ,
+    {
+        airline: 'Qatar Airways',
+        origin: 'OSA',
+        destiny: 'BER',
+        price: {
+            currency: 'NZD',
+            amount: 1691.51
+        }
+    } ,
+    {
+        airline: 'Latam',
+        origin: 'BER',
+        destiny: 'SCL',
+        price: {
+            currency: 'USD',
+            amount: 1367.19
+        }
+
+    },
+    
+   
+    {
+        airline: 'Latam',
+        origin: 'OSA',
+        destiny: 'SCL',
+        price: {
+            currency: 'USD',
+            amount: 1640.63
+        }
+    }
+]
