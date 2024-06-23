@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<h2 class="h1 font-bold pb-4">Crossfit Program 1</h2>
+	<h2 class="h1 font-bold pb-4">Hola</h2>
 	<hr class="mb-8" />
 
 	<Accordion autocollapse>
