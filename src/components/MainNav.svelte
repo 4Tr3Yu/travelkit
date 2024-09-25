@@ -11,7 +11,6 @@
         <a
             class="btn btn-sm variant-ghost-surface"
             href="/auth/login"
-            target="_blank"
             rel="noreferrer"
         >
             Sing In
@@ -26,7 +25,6 @@
         <a
             class="btn btn-sm variant-ghost-surface"
             href="/auth"
-            target="_blank"
             rel="noreferrer"
         >
             Sing Out
