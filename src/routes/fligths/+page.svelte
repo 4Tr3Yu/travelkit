@@ -1,5 +1,4 @@
 <script lang="ts">
-	import {type Program} from '$lib/types';
 	 const fligths = [
   {
       airline: 'Iberia',
@@ -55,29 +54,25 @@
 </script>
 
 <div class="container h-full mx-auto">
-	<h2 class="h2">Backdoor</h2>
-	<h3 class="h3">Programs List</h3>
+	<h2 class="h2">Fligths</h2>
 	<hr class="w-full my-4" />
-	<div class="w-full text-token grid grid-cols-1 md:grid-cols-5 gap-4">
+	<div class="w-full text-token flex flex-wrap gap-4">
 		{#each fligths as flight}
-				<div class="card">
+				<div class="card w-1/4">
 					<header class="card-header">
 						<h4 class="h4">{flight.airline}</h4>
 					</header>
 					<section class="p-4">
-						<p>{flight.price.amount}</p>
+						<p>Price: {flight.price.amount} {flight.price.currency}</p>
 					</section>
 					<footer class="card-footer">
 						<button type="button" class="btn variant-ghost">
-							<span></span>
 							<span>{flight.origin}</span>
 						</button>
                         <button type="button" class="btn variant-ghost">
-							<span></span>
 							<span>to</span>
 						</button>
 						<button type="button" class="btn variant-ghost">
-							<span></span>
 							<span>{flight.destiny}</span>
 						</button>
 					</footer>

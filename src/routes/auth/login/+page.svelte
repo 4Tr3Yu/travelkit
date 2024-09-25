@@ -5,14 +5,14 @@
 
 	let email: string = '';
 	let password: string = '';
+	
 	let helperText: HelperText = { error: null, text: null };
-
+	
 	const handleLogin = async (type: string) => {
 		const {
 			data: { user },
 			error
-		} =
-			type === 'LOGIN'
+		} = type === 'LOGIN'
 				? await supabase.auth.signInWithPassword({ email, password })
 				: await supabase.auth.signUp({ email, password });
 
@@ -29,13 +29,13 @@
 	const handleOAuthLogin = async (provider: Provider) => {
 		// You need to enable the third party auth you want in Authentication > Settings
 		// Read more on: https://supabase.com/docs/guides/auth#third-party-logins
-		let { error } = await supabase.auth.signInWithOAuth({ provider });
+		const { error } = await supabase.auth.signInWithOAuth({ provider });
 		if (error) console.log('Error: ', error.message);
 	};
 </script>
 
 <div class="container h-full mx-auto">
-	<h2 class="h2">Register</h2>
+	<h2 class="h2">Login</h2>
 	<hr class="w-full my-4" />
 	<div class=" flex justify-center items-center mx-auto transition-[width] duration-200 w-full">
 		<form class="w-full card p-4 text-token space-y-4">
